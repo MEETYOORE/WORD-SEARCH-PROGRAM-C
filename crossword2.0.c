@@ -68,7 +68,7 @@ void searching(int n,int a,int b)
         {
             if(count==l)
             {
-                printf("%d,%d to %d,%d\n",a,b+l,a+1,b+1);
+                printf("%d,%d to %d,%d\n",a+1,b+l,a+1,b+1);
                 count=1;
                 return;
             }
